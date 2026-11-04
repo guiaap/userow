@@ -5,7 +5,9 @@ export default function FormField({
     id,
     label,
     inputType="text",
-    required=true
+    value,
+    required=true,
+    onChange
 }) {
 
     const [isPasswordVisible, setIsPasswordVisible] = useState(true);
@@ -28,6 +30,8 @@ export default function FormField({
                     id={id}
                     name={id}
                     required={required}
+                    value={value}
+                    onChange={onChange}
                     className="
                         w-[300px]
                         px-2 py-1

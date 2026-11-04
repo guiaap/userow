@@ -1,7 +1,9 @@
-export default function Button({ children, onClick }) {
+export default function Button({ children, type="button", disabled=false }) {
 
     return (
         <button 
+            type={type}
+            disabled={disabled}
             className="
                 w-full
                 p-2
