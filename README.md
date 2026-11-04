@@ -24,7 +24,7 @@ The project aims to explore web development best practices, including software a
 
 - PostgreSQL
 
-## Funcionalidades previstas
+## Planned features
 
 - New user registration.
 - JWT-based user authentication.
