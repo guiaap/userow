@@ -2,7 +2,7 @@ import { useState } from "react";
 import FormTitle from "../components/ui/FormTitle.jsx";
 import FormField from "../components/ui/FormField.jsx";
 import Button from "../components/ui/Button.jsx";
-import Message from "../components/ui/Message.jsx";
+import FormMessage from "../components/ui/FormMessage.jsx";
 import { Link } from "react-router-dom";
 
 export default function Register() {
@@ -84,9 +84,9 @@ export default function Register() {
                 { isSubmiting ? "Registering..." : "Register" }
             </Button>
 
-            <Message>
+            <FormMessage>
                 {message}
-            </Message>
+            </FormMessage>
 
             <div className="
                 flex flex-col gap-1 items-center
