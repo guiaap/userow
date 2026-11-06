@@ -3,6 +3,7 @@ import "dotenv/config";
 import cors from "cors";
 import { checkDatabaseConnection } from "./utils/checkDatabaseConnection.js";
 import usersRoutes from "./routes/users.routes.js";
+import authRoutes from "./routes/auth.routes.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -13,6 +14,7 @@ app.use(cors());
 checkDatabaseConnection();
 
 app.use("/users", usersRoutes);
+app.use("/login", authRoutes);
 
 app.use((error, req, res, next) => {
 
