@@ -1,0 +1,35 @@
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Builds
+dist/
+build/
+
+# Tests
+coverage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.cache
+
+# Editor configuration
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Operating System
+.DS_Store
+Thumbs.db
+Desktop.ini
