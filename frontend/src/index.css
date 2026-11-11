@@ -1,1 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 @import "tailwindcss";
+
+:root {
+
+    --bg-primary: #0B1120;
+    --bg-secondary: #111827;
+    --bg-tertiary: #1E293B;
+
+    --border: #334155;
+
+    --text-primary: #F8FAFC;
+    --text-secondary: #CBD5E1;
+    --text-muted: #94A3B8;
+
+    --accent-primary: #60A5FA;
+    --accent-hover: #93C5FD;
+
+    --button-primary: #2563EB;
+    --button-primary-hover: #1D4ED8;
+
+    --success: #4ADE80;
+    --warning: #FBBF24;
+    --error: #F87171;
+
+    --container-page: 1800px;
+    --container-content: 1200px;
+}
